@@ -1,0 +1,67 @@
+{
+  "name": "quyx",
+  "version": "0.0.11",
+  "type": "module",
+  "author": "Andrej Nemec",
+  "license": "MIT",
+  "description": "Quyx is a modern web framework for building SPA/SSR React applications.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrejNemec/quyx.git"
+  },
+  "private": false,
+  "files": [
+    "router",
+    "shared",
+    "server",
+    "client",
+    "config",
+    "*.d.ts"
+  ],
+  "types": "./shared/index.ts",
+  "exports": {
+    ".": "./shared/index.ts",
+    "./router": "./router/index.ts",
+    "./config": "./config/index.ts",
+    "./server": "./server/index.ts",
+    "./client": "./client/index.ts"
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./shared/index.ts"
+      ],
+      "./router": [
+        "./router/index.ts"
+      ],
+      "./client": [
+        "./client/index.ts"
+      ],
+      "./config": [
+        "./config/index.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.11",
+    "@vinxi/react": "0.2.0",
+    "@vinxi/react-server-dom": "^0.0.3",
+    "@vinxi/server-components": "^0.2.0",
+    "@vinxi/server-functions": "^0.2.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "defu": "^6.1.4"
+  },
+  "devDependencies": {
+    "@tanstack/react-router": "^1.16.0",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "react": "0.0.0-experimental-035a41c4e-20230704",
+    "react-dom": "0.0.0-experimental-035a41c4e-20230704",
+    "vinxi": "0.2.1"
+  }
+}

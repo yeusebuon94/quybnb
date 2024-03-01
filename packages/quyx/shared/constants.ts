@@ -1,0 +1,1 @@
+export const SPA_WRAPPER_ID = '__quyx__'

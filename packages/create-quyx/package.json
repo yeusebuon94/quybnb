@@ -1,0 +1,37 @@
+{
+  "name": "create-quyx",
+  "version": "0.0.7",
+  "description": "Create Quyx apps with no configuration.",
+  "author": "Andrej Nemec",
+  "license": "MIT",
+  "bin": "./bin",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrejNemec/quyx.git"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "degit": "^2.8.4",
+    "gitignore-parser": "^0.0.2",
+    "kleur": "^4.1.4",
+    "node-fetch": "^2.6.7",
+    "prettier": "^2.5.1",
+    "prompts": "^2.4.0",
+    "punycode": "^2.3.1",
+    "rollup": "^4.10.0",
+    "tiny-glob": "^0.2.8",
+    "yargs-parser": "^21.0.1"
+  },
+  "files": [
+    "bin"
+  ]
+}

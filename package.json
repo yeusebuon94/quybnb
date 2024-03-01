@@ -1,0 +1,28 @@
+{
+  "name": "quybnb",
+  "description": "Quyx is a modern web framework for building SPA/SSR React applications.",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yeusebuon94/quybnb.git"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "resolutions": {
+    "react": "0.0.0-experimental-035a41c4e-20230704",
+    "react-dom": "0.0.0-experimental-035a41c4e-20230704"
+  }
+}
