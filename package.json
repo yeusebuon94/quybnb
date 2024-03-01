@@ -1,5 +1,6 @@
 {
   "name": "quybnb",
+  "version": "1.0.1",
   "description": "Quyx is a modern web framework for building SPA/SSR React applications.",
   "scripts": {
     "build": "turbo build",
